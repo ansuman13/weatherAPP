@@ -5,10 +5,6 @@ const hbs = require('hbs')
 const geocode = require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
-// Views is 
-// Template Model View Template(django) 
-// MVC Model View Controller(nodejs) 
-
 const publicDirectoryPath = path.join(__dirname, '../public')
 
 const viewsDirectoryPath = path.join(__dirname,'../templates/views')
