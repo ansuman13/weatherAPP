@@ -76,6 +76,5 @@ app.get('*', (req,res) =>{
     res.send('<h2> ("_") Lost!! ("..") me too, this is 404 page</h2><h3>No Page Found</h3>')
 })
 
-app.listen(3000, () => {
-    console.log('listening on port 3000')
-})
+
+app.listen(process.env.PORT || 3000);
